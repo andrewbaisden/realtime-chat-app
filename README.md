@@ -54,7 +54,13 @@ Server:
 npm run start
 ```
 
-## Messaging app UI
+## How to use the messaging apps
+
+There are two messaging apps one using the PubNub API and the other using the Pusher API.
+
+The PubNub version has a blue header and the Pusher version has a green header. They can't communicate with each other you can only have multiple conversations within that application, like using WhatsApp or Telegram.
+
+Sign in with any name and open multiple windows or tabs to sign in as different users. Now you can have a real-time conversation simulating other users or with real people if you deploy it online but beware it's not production-ready, it's just a demo proof of concept.
 
 ### PubNub Version
 
