@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@pubnub/react-chat-components": "^0.33.0",
+    "axios": "^1.6.8",
+    "next": "14.2.3",
+    "pubnub": "^7.6.3",
+    "pubnub-react": "^3.0.2",
+    "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
